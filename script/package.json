@@ -1,0 +1,13 @@
+{
+    "private": true,
+    "name": "script",
+    "version": "1.0.0",
+    "author": "Webvizio",
+    "devDependencies": {
+        "webpack": "^5.92.1",
+        "webpack-cli": "^5.1.4"
+    },
+    "dependencies": {
+        "rrweb-snapshot": "^2.0.0-alpha.4"
+    }
+}

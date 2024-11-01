@@ -1,0 +1,256 @@
+.webvizio-settings-page {
+    max-width: 935px;
+    font-family: Inter;
+    box-sizing: border-box;
+    color: #28293D;
+}
+.w-page-content {
+    width: 100%;
+    padding: 20px;
+    border-radius: 4px;
+    border: 1px solid #E4E4EB;
+    background: white;
+    box-sizing: border-box;
+}
+
+.webvizio-settings-page .w-set-user {
+    display: inline-flex !important;
+}
+
+.webvizio-settings-page .w-remove-user {
+    display: none !important;
+}
+
+.webvizio-settings-page .w-user-block.active .w-set-user {
+    display: none !important;
+}
+
+.webvizio-settings-page .w-user-block.active .w-remove-user {
+    display: inline-flex !important;
+}
+
+.webvizio-settings-page .w-connection-block-wrapper {
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.webvizio-settings-page .w-connection-block {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 735px;
+}
+
+.webvizio-settings-page a {
+    color: #3E7BFA;
+}
+
+.webvizio-settings-page .w-btn {
+    background: linear-gradient(147.14deg, #5B8DEF 6.95%, #0063F7 93.05%);
+    border-radius: 40px;
+    width: auto;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 10px 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    user-select: none;
+    text-decoration: none;
+}
+
+.webvizio-settings-page .w-btn:hover {
+    background: #3568D4;
+}
+.webvizio-settings-page .w-btn:disabled {
+    background: #CCDDFF;
+    cursor: no-drop;
+    color: #6698FA;
+    pointer-events: none;
+}
+
+.webvizio-settings-page .w-btn.w-transparent-btn {
+    background: none;
+    border: 1px solid #3E7BFA;
+    color: #3E7BFA;
+}
+
+.webvizio-settings-page .w-btn.w-transparent-btn:hover {
+    background: rgba(62, 123, 250, 0.12);
+}
+
+.webvizio-settings-page .w-btn.w-transparent-btn.w-red-btn {
+    border: 1px solid #FF3B3B;
+    color: #FF3B3B;
+}
+
+.webvizio-settings-page .w-btn.w-transparent-btn.w-red-btn:hover {
+    background: rgba(255, 59, 59, 0.12);
+}
+
+.webvizio-settings-page .w-logo {
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 48px;
+}
+
+.webvizio-settings-page .w-connect-title {
+    color: #28293D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.webvizio-settings-page .w-connect-description {
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    color: #28293D;
+    margin-bottom: 24px;
+}
+
+.webvizio-settings-page .w-alert {
+    display: flex;
+    width: 100%;
+    padding: 6px 24px 6px 12px;
+    border-radius: 4px;
+    border: 1px solid #F80;
+    background: #FFF8E5;
+    color: #28293D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+.webvizio-settings-page .w-a-message {
+    margin-left: 8px;
+}
+
+.webvizio-settings-page h2 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    color: #28293D;
+    margin: 0px;
+}
+
+.webvizio-settings-page .w-connected-block {
+    margin-top: 32px;
+}
+
+.webvizio-settings-page .w-connected-label {
+    padding: 16px;
+    background: #f8f8f9;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    color: #28293D;
+    display: inline-block;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.webvizio-settings-page .w-connected-label span {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #05A660;
+}
+
+.webvizio-settings-page .w-connected-buttons {
+    display: flex;
+}
+
+.webvizio-settings-page .w-connected-buttons .w-btn:first-child {
+    margin-right: 8px;
+}
+
+.webvizio-settings-page #w-change-account {
+    padding-right: 16px;
+    padding-left: 12px;
+}
+
+.webvizio-settings-page #w-change-account svg {
+    margin-right: 4px;
+}
+.webvizio-settings-page h3 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    margin: 8px 0px;
+}
+
+.webvizio-settings-page .w-block-description {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.webvizio-settings-page .w-users-block {
+    margin-top: 24px;
+}
+
+.webvizio-settings-page .w-table {
+    border-radius: 4px;
+    border: 0px;
+    overflow: hidden;
+    border-collapse: collapse;
+}
+.webvizio-settings-page .w-table tr.w-t-header {
+    border: 1px solid #3E7BFA;
+    border-bottom: 0px;
+}
+.webvizio-settings-page .w-table tr {
+    border: 1px solid #E4E4EB;
+    background: white;
+}
+.webvizio-settings-page .w-table tr:last-child {
+    border-bottom: 1px solid #E4E4EB;
+}
+
+.webvizio-settings-page .w-table th {
+    background: #3E7BFA;
+    color: white;
+}
+.webvizio-settings-page .w-table td, .webvizio-settings-page .w-table th {
+    padding: 18px 16px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    color: #28293D;
+    vertical-align: middle;
+}
+
+.webvizio-settings-page .w-table .w-t-header th {
+    padding: 8px 16px;
+    color: white;
+}
+
+.webvizio-settings-page .w-table tr.active {
+    background: #f8f8f9;
+}
